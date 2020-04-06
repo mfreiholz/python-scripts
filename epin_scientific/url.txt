@@ -1,0 +1,34 @@
+https://epin-scientific.eu/api/measurements?from=1538762082&to=1586105682&locations=DEBIED&pollen=Corylus,Alnus,Fraxinus,Betula,Poaceae,Artemisia,Ambrosia
+
+Base URL:
+https://epin-scientific.eu/api/measurements?
+from=
+to=
+locations=
+pollen=
+
+Locations:
+DEALTO=Altöttingen
+DEBAMB=Bamberg 1 (manuell)
+DEBAMB2=Bamberg 2 (manuell)
+DEBERL=Berlin
+DEFEUC=Feucht
+DEGARM=Garmisch-Patenkirchen
+DEHOF=Hof
+DELEIP=Leipzig
+DEMARK=Marktheidenfeld
+DEMIND=Mindelheim
+DEBIED=München
+DEBIED%20(Hirst)=München Hirst (manuell)
+DEMUNC=München Thalkirchen
+DEPFRO=Oberjoch in Pfronten (manuell)
+CHPAYE=Payerne
+DEVIEC=Viechtach
+DEWETZ=Wetzlar
+DEWIES=Wiesbaden
+
+
+Pollen:
+Abies,Acer,Aesculus,Alnus,Ambrosia,Artemisia,Asteraceae,Betula,Carpinus,Castanea,Chenopodium,Corylus,Cruciferae,Cyperaceae,Erica,Fagus,Fraxinus,Fungus,Galium,Humulus,Impatiens,Juglans,Larix,Picea,Pinaceae,Pinus,Plantago,Platanus,Poaceae,Populus,Quercus,Quercus%20ilex,Rumex,Salix,Sambucus,Secale,Taxus,Tilia,Ulmus,Urtica,Varia
+
+Request URL:https://epin-scientific.eu/api/measurements?from=1583515874&to=1586190674&locations=DEBIED&pollen=
