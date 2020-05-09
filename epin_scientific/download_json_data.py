@@ -18,7 +18,7 @@ f.close()
 # Download each location one-by-one.
 baseurl = "https://epin-scientific.eu/api/measurements"
 
-fromdate = 1573063038
+fromdate = 1577836800
 todate = int(datetime.datetime.now(tz=datetime.timezone.utc).timestamp())
 for i in range(len(location_keys)):
     location_key = location_keys[i]

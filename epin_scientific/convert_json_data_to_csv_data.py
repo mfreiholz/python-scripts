@@ -13,13 +13,19 @@ def compare_arrays(a, b):
     return True
 
 def write_json_to_csv(obj, filename):
+    print("---")
+    print("Write JSON to CSV")
+    print("CSV: " + filename)
+    print("measurements: " + str(len(obj["measurements"])))
+
     if len(obj["measurements"]) <= 0:
         return False
 
     # Header from "pollen" names.
     pollen_names = []
     for e in obj["measurements"]:
-        pollen_names.append(e["polle"])
+        if "polle" in e:
+            pollen_names.append(e["polle"])
 
     # Write CSV.
     with open(filename, "w", newline='') as csvfile:
@@ -75,9 +81,9 @@ for filename in files:
         # Parse JSON data.
         obj = json.loads(src_file_data)
         if not write_json_to_csv(obj, "output/" + filename + ".csv"):
-            printf("No measurements in: " + filename)
+            print("No measurements in: " + filename)
     except:
-        print("No data for: " + filename)
+        print("Except: " + filename)
 
 
 #            rowheader.append("location")
